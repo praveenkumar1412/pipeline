@@ -17,7 +17,7 @@ def generate_content(url,file_name):
     file_name, ext = os.path.splitext(file_name)
     vertexai.init(project="echelon-data-intake", location="us-east1")
     
-    textsi_1 = """you are documnent extractor who extarct data related to gas service alone.Avoid adding special characters or formatting outside of a valid JSON structure"""
+    textsi_1 = """you are documnent extractor who the extarct data related to gas service alone.Avoid adding special characters or formatting outside of a valid JSON structure"""
     model = GenerativeModel(
         "gemini-1.5-pro-001",
         system_instruction=[textsi_1]
