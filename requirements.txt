@@ -1,0 +1,6 @@
+google-cloud-storage
+requests
+PyMuPDF
+google-cloud-logging
+vertexai
+
